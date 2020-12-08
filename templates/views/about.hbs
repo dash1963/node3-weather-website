@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="icon" href="./images/weather.png">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+
+<body>
+    <div class="main-content">
+        {{>header }}
+        <h3>Author: {{ name}}</h3>
+        <img src="/images/sergio_rueda.jpg" class="portrait">
+        <br>
+        <hr>
+        <br>
+        <p>Software developer for more than 20 Years.</p>
+        <hr>
+        <p style="color:darkcyan; font-size:1rem; font-weight:700">Working experience in technologies such as:</p>
+        <ol>
+            <li>Java</li>
+            <li>Spring Framework</li>
+            <li>Spring Boot</li>
+            <li>C#</li>
+            <li>ASP.NET</li>
+            <li>COBOL</li>
+            <li>Angular</li>
+            <li>NodeJS</li>
+            <li>JAVASCRIPT</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Oracle SQL+, PL-SQL</li>
+            <li>INGRES RDB</li>
+            <li>IBM DB2</li>
+            <li>Korn Shell</li>
+            <li>Asterisk Scripting</li>
+            <li>...</li>
+        </ol>
+    </div>
+
+
+    {{>footer}}
+</body>
+
+</html>

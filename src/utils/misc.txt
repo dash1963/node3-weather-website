@@ -1,0 +1,16 @@
+
+// Dark sky API -  https://darksky.net/dev/account
+// 221ad6d821e3ccd4e793996e7d035795
+// https://api.darksky.net/forecast/221ad6d821e3ccd4e793996e7d035795/37.8267,-122.4233
+//
+//
+// https://weatherstack.com
+//API access key: fda6ddceff764970f9b542a9ee10b324
+// http://api.weatherstack.com/current?access_key=fda6ddceff764970f9b542a9ee10b324&lang=es&query=37.8267,-122.4233
+
+//const geoUrl = 'https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=pk.eyJ1Ijoic2VyZ2lvNDIzNCIsImEiOiJja2lkbHd4cTUwc2w3MnRsZ3ZheDd3Z21pIn0.bgOHlskDIA8F33ocSXsZNA&limit=1'; 
+// const weatherstackUrl = 'http://api.weatherstack.com/current?access_key=fda6ddceff764970f9b542a9ee10b324&query=37.8267,-122.4233';
+// https://api.darksky.net/forecast/221ad6d821e3ccd4e793996e7d035795/41.8756,-87.6244
+
+                                    //      darkskyUrl = `https://api.darksky.net/forecast/221ad6d821e3ccd4e793996e7d035795/${latitude},${longitude}`;
+                                    //      clog(`${latitude},  ${longitude},  ${darkskyUrl}`);

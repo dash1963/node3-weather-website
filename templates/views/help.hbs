@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="icon" href="./images/weather.png">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header }}
+        <hr>
+        <p>Usage: Please enter a valid location.</p>
+        <p></p>
+        <p>it could be:</p>
+        <ol>
+            <li>Country</li>
+            <li>State</li>
+            <li>City</li>
+            <li>Zip Code</li>
+            <li>Address</li>
+        </ol>
+
+        <hr>
+        <h4>Thanks for using The Weather App</h4>
+    </div>
+
+
+    {{>footer}}
+</body>
+
+</html>
