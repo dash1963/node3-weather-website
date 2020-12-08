@@ -1,6 +1,6 @@
 const clog = console.log;
 
-clog('Client side javascript just loaded!!');
+
 
 const weatherForm = document.querySelector('form');
 const search = document.querySelector('input');
