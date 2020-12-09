@@ -77,21 +77,28 @@ app.get('/weather', (req, res) => {
            })
         }  
        
-        forecast(latitude, longitude, (error, { summary, temperature, precipProbability} = {}) => {
+        forecast(latitude, longitude, (error,  temperatureLow, temperatureHigh, { summary, temperature, precipProbability, humidity, windSpeed} = {}) => {
           if (error) {
             return res.send({
                 error: `Error: ${error}`
             })
           } else 
           {
-            const forecast = `${summary}.` + 
-                                ` It is currently ${temperature} degrees outside.` + 
-                                ` There is a ${precipProbability}% chance of rain`;
+            const forecast = `${summary}.` +  
+                                ` It is currently ${temperature} degrees outside.`  +
+                                ` There is a ${precipProbability}% chance of rain. `;
 
             res.send({
                     forecast,
                     location,
-                    address: req.query.address
+                    address: req.query.address,
+                    temperature,
+                    temperatureLow,
+                    temperatureHigh,
+                    precipProbability,
+                    humidity,
+                    windSpeed
+
             });
          }
          });

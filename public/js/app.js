@@ -9,11 +9,12 @@ const getWeather = (address) =>
 {
 fetch(`/weather?address=${address}`).then( (response) => {
   response.json().then((data) => {
+       
       if (data.error) {
           para1.textContent = data.error;
       } else {
         para1.textContent = data.location;
-        para2.textContent = data.forecast
+        para2.textContent = data.forecast;
       }
   })
 });
