@@ -1,7 +1,7 @@
 body {
     color:#333333;
     font-family: Arial;
-    max-width: 650px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 0 16px;
 
@@ -64,11 +64,28 @@ button {
     font-weight: 700;
 }
 
+.help-usage-0 {
+   color: rgb(19, 99, 149);
+   font-weight: 700;
+}
 
+.help-usage-1 {
+    color: rgb(16, 158, 246);
+ }
 
+.help-result-0 {
+   padding-left: 10px;
+}
 
-
-
+.help-result-1 {
+    padding-left: 4px;
+ }
+ 
+ .help-span {
+     color: rgb(16, 158, 246);
+     font-weight: 700;
+ }
+ 
 
 
 

@@ -34,7 +34,7 @@ app.use(express.static( publicDirectoryPath));
 app.get('', (req, res) => {
 res.render('index', { 
     title: 'Weather App',
-    name: 'Dear user'
+    name: 'Serginho'
 });
 });
 
@@ -132,10 +132,6 @@ app.get('*', (req, res ) => {
         name: 'Serginho'
     });
 });
-
-
-//---------------------------------------------------------
-//
 
 app.listen(port, ()=>{
     clog('server started on port: ', port)
