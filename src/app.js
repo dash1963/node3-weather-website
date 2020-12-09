@@ -11,7 +11,7 @@ const forecast = require('./utils/forecast');
 
 const clog = console.log;
 const app = express();
-const port = proces.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 // Define Paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public');
@@ -134,16 +134,8 @@ app.get('*', (req, res ) => {
 });
 
 
-
-
-
 //---------------------------------------------------------
 //
-
-
-
-
-
 
 app.listen(port, ()=>{
     clog('server started on port: ', port)
